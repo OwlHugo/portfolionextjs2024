@@ -12,9 +12,11 @@ const techStacks = [
     tech: [
       { techName: "C#", level: "Avançado" },
       { techName: "ERP", level: "Intermediário" },
-      { techName: "SAP B1 SDK e Service Layer", level: "Intermediário" },
-      { techName: "SQL e SQL Server/SAP Hana", level: "Intermediário" },
+      { techName: "SAP B1 SDK", level: "Intermediário" },
+      { techName: "SQL Server", level: "Intermediário" },
+      { techName: "SAP HANA", level: "Intermediário" },
       { techName: "Crystal Reports", level: "Intermediário" },
+      
 
     ]
   },

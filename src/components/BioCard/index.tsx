@@ -10,7 +10,7 @@ const BioCard = ({ title, bio }) => {
         <Icon icon={FaRegHandPeace} className="w-4 h-4 text-black mr-0" />
         <h2 className="text-xl font-bold text-gray-800">{title}</h2>
       </div>
-      <p className="shadow-md p-2 md:p-4 md:text-lg bg-red-900 rounded-lg font-normal text-white mb-10 md:mx-4">
+      <p style={{ backgroundColor: "#1a202c" }} className="shadow-md p-2 md:p-4 md:text-lg rounded-lg font-normal text-white mb-10 md:mx-4">
         {bio}
       </p>
     </div>

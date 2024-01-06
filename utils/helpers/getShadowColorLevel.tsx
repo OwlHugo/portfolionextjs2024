@@ -2,12 +2,12 @@
 export const getShadowColorLevel = (level: any) => {
   switch (level) {
     case "Iniciando":
-      return 'green';
+      return '#356E3E';    
     case "Intermediário":
-      return 'darkorange';
+      return '#AD8E3B';    
     case "Avançado":
-      return 'darkred';
+      return '#7D2828';  
     default:
-      return 'gray';
+      return '#808080';   
   }
 };

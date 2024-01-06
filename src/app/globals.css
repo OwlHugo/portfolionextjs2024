@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media screen and (max-width: 768px) {
+  .about-me-container {
+    padding-top: 110px;
+  }
+  
+}
+.level-wrapper {
+  overflow: hidden;
+}
