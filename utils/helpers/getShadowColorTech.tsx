@@ -1,15 +1,12 @@
 import { techStacks } from "../../portfolio";
 
-
 const colorSentiments = {
-  backend: '#364D35',
-  calm: '#1C4B7E',
-  others: '#792821',
-  energetics: '#9C6D00',
-  frontend: '#54315B', 
-  mysterious: '#3F3F3F', 
-  sap: '#1C4B7E',
+  backend: "bg-purple-600",   // Roxo
+  calm: "bg-teal-600",        // Verde-azulado
+  others: "bg-orange-600",     // Laranja
+  energetics: "bg-pink-600",   // Rosa
 };
+
 
 const getShadowColorTech = (techName) => {
   const foundTech = techStacks
@@ -20,63 +17,61 @@ const getShadowColorTech = (techName) => {
       switch (foundTech.stackTitle) {
         case "SAP B1 Tech Stack":
           switch (foundTech.techName) {
-            case "ERP":
-              return colorSentiments.sap;
             case "SAP B1 SDK":
-              return colorSentiments.sap;
-            case "SQL Server":
-              return colorSentiments.backend;
+              return colorSentiments.calm;
+            case "SQL":
+              return colorSentiments.others;
             case "SAP HANA":
-              return colorSentiments.sap;
+              return colorSentiments.energetics;
             case "Crystal Reports":
-              return colorSentiments.sap;
+              return colorSentiments.backend;
             case "C#":
-              return colorSentiments.frontend;
+              return colorSentiments.calm;
             default:
-              return colorSentiments.frontend;
+              return colorSentiments.others;
           }
         case "Web Tech Stack":
           switch (foundTech.techName) {
             case "ReactJS":
-              return colorSentiments.frontend;
+              return colorSentiments.backend;
             case "Tailwind CSS":
-              return colorSentiments.frontend;
+              return colorSentiments.calm;
             case "NextJS":
               return colorSentiments.others;
             case "NodeJS":
-              return colorSentiments.backend;
+              return colorSentiments.energetics;
             case "TypeScript":
               return colorSentiments.backend;
             default:
-              return colorSentiments.frontend;
+              return colorSentiments.calm;
           }
         case "Mobile Tech Stack":
           switch (foundTech.techName) {
             case "Kotlin":
               return colorSentiments.backend;
             case "React Native":
-              return colorSentiments.frontend;
+              return colorSentiments.calm;
             case "SQLite":
               return colorSentiments.others;
             default:
-              return colorSentiments.frontend;
+              return colorSentiments.others;
           }
         case "DevOps Tech Stack":
           switch (foundTech.techName) {
             case "Git":
-              return colorSentiments.mysterious;
+              return colorSentiments.backend;
             case "Docker":
-              return colorSentiments.others;
+              return colorSentiments.calm;
             case "Azure":
-              return colorSentiments.frontend;
+              return colorSentiments.others;
             default:
               return colorSentiments.others;
           }
         default:
-          return colorSentiments.frontend;
+          return colorSentiments.others;
       }
     }
-    return colorSentiments.mysterious;
+    return colorSentiments.others;
   };
   
 

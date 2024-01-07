@@ -1,13 +1,12 @@
-
 export const getShadowColorLevel = (level: any) => {
   switch (level) {
     case "Iniciando":
-      return '#356E3E';    
+      return 'bg-red-600';  // Vermelho mais escuro
     case "Intermediário":
-      return '#AD8E3B';    
+      return 'bg-blue-500'; // Azul mais claro
     case "Avançado":
-      return '#7D2828';  
+      return 'bg-yellow-500'; // Amarelo mais claro
     default:
-      return '#808080';   
+      return 'bg-gray-600'; // Cinza mais escuro para casos não correspondentes
   }
 };

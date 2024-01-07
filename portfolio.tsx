@@ -1,7 +1,7 @@
 const greeting = {
   name: "Hugo Adriano de Oliveira",
   description: "Desenvolvedor de SAP B1, Web e Mobile",
-  bio: "Sou um estudante de Sistemas de Informação apaixonado por tecnologia desde que me lembro. Movido por enfrentar desafios e buscar soluções práticas para agregar valor a projetos. Atualmente estudo/trabalho constantemente(12 horas por dia +/-) em projetos para empresas e pessoais. Profissionalmente, tenho experiência na integração e desenvolvimento de soluções com SAP Business One, utilizando C#, Service Layers, DI API, SQL e Crystal Reports. No desenvolvimento web, adoto abordagem fullstack, trabalhando com ReactJS, TailwindCSS, NodeJS, NextJS e TypeScript. Sempre busco me adaptar incansavelmente para desafios intelectuais e mantenho-me dedicado à exploração contínua de novos conceitos tecnológicos, visando agregar valor aos projetos que abraço.",
+  bio: "Sou um estudante de Sistemas de Informação, apaixonado por tecnologia desde que me lembro. Movido por enfrentar desafios e buscar soluções práticas para agregar valor a projetos. Atualmente estudo/trabalho constantemente(12 horas por dia +/-) em projetos para empresas e pessoais. Profissionalmente, tenho experiência na integração e desenvolvimento de soluções com SAP Business One, utilizando C#, Service Layers, DI API, SQL e Crystal Reports. No desenvolvimento web, adoto abordagem fullstack, trabalhando com ReactJS, TailwindCSS, NodeJS, NextJS e TypeScript. Sempre busco me adaptar incansavelmente para desafios intelectuais e mantenho-me dedicado à exploração contínua de novos conceitos tecnológicos, visando agregar valor aos projetos que abraço.",
   location: "Rondonópolis, MT",
   institution: "Universidade Federal de Rondonópolis",
   email: "hugoadrianodeoliveira1@gmail.com "
@@ -11,11 +11,11 @@ const techStacks = [
     title: "SAP B1 Tech Stack",
     tech: [
       { techName: "C#", level: "Avançado" },
-      { techName: "ERP", level: "Intermediário" },
       { techName: "SAP B1 SDK", level: "Intermediário" },
-      { techName: "SQL Server", level: "Intermediário" },
-      { techName: "SAP HANA", level: "Intermediário" },
       { techName: "Crystal Reports", level: "Intermediário" },
+      { techName: "SAP HANA", level: "Intermediário" },
+      { techName: "SQL", level: "Intermediário" },
+
       
 
     ]
@@ -34,16 +34,16 @@ const techStacks = [
     title: "Mobile Tech Stack",
     tech: [
       { techName: "React Native", level: "Intermediário" },
-      { techName: "Kotlin", level: "Iniciante" },
-      { techName: "SQLite", level: "Iniciante" },
+      { techName: "Kotlin", level: "Iniciando" },
+      { techName: "SQLite", level: "Iniciando" },
     ]
   },
   {
     title: "DevOps Tech Stack",
     tech: [
       { techName: "Git", level: "Intermediário" },
-      { techName: "Docker", level: "Iniciante" },
-      { techName: "Azure", level: "Iniciante" },
+      { techName: "Docker", level: "Iniciando" },
+      { techName: "Azure", level: "Iniciando" },
     ]
   },
 ];
